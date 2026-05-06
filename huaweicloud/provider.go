@@ -1299,6 +1299,7 @@ func Provider() *schema.Provider {
 
 			"huaweicloud_drs_availability_zones": drs.DataSourceAvailabilityZones(),
 			"huaweicloud_drs_node_types":         drs.DataSourceNodeTypes(),
+			"huaweicloud_drs_job_parameters":     drs.DataSourceDrsJobParameters(),
 
 			// EventGrid
 			"huaweicloud_eg_connections":           eg.DataSourceConnections(),
