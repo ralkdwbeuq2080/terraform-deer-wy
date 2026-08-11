@@ -51,6 +51,7 @@ The following variables need to be configured:
 ## Usage
 
 * Copy this example script to your `main.tf`.
+  
 * Create a `terraform.tfvars` file and fill in the required variables:
 
   ```hcl
